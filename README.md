@@ -41,14 +41,6 @@ The main features of agri buss are as follow;
 3. Install dependencies: `npm install` or `yarn install`
 4. Follow platform-specific instructions for running the app on Android or iOS.
 
-### Usage
-1. Register an account on Asappay using valid personal information.
-2. Log in to your account securely using authentication credentials.
-3. Initiate a money transfer by providing recipient details and transfer amount.
-4. Review transaction details, including fees and exchange rates.
-5. Confirm the transaction and track its progress in real-time.
-6. Receive notifications upon successful completion of the transaction.
-
 ## Feedback
 We welcome feedback from our users to improve Asappay further. Please feel free to reach out to our support team via [contactus@agribuss.net](mailto:contactus@agribuss.net) with any suggestions, questions, or concerns.
 
