@@ -27,3 +27,30 @@ The main features of agri buss are as follow;
 ### V. Low Fees and Competitive Exchange Rates
 - Offers competitive fees and exchange rates compared to traditional banking methods.
 - Transparently displays applicable fees to users before confirming transactions.
+
+
+## Getting Started
+
+### Prerequisites
+- Android/iOS device for testing or development.
+- Development environment set up with necessary tools (e.g., Android Studio, Xcode).
+
+### Installation
+1. Clone the repository: `git clone https://github.com/lilndabose/AGRIBUSS-WEB`
+2. Navigate to the project directory: `cd AGRIBUSS-WEB`
+3. Install dependencies: `npm install` or `yarn install`
+4. Follow platform-specific instructions for running the app on Android or iOS.
+
+### Usage
+1. Register an account on Asappay using valid personal information.
+2. Log in to your account securely using authentication credentials.
+3. Initiate a money transfer by providing recipient details and transfer amount.
+4. Review transaction details, including fees and exchange rates.
+5. Confirm the transaction and track its progress in real-time.
+6. Receive notifications upon successful completion of the transaction.
+
+## Feedback
+We welcome feedback from our users to improve Asappay further. Please feel free to reach out to our support team via [contactus@agribuss.net](mailto:contactus@agribuss.net) with any suggestions, questions, or concerns.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
