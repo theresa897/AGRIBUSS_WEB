@@ -36,7 +36,7 @@ The main features of agri buss are as follow;
 - Development environment set up with necessary tools (e.g., Android Studio, Xcode).
 
 ### Installation
-1. Clone the repository: `git clone https://github.com/lilndabose/AGRIBUSS-WEB`
+1. Clone the repository: `git clone https://github.com/Theresa897/AGRIBUSS-WEB`
 2. Navigate to the project directory: `cd AGRIBUSS-WEB`
 3. Install dependencies: `npm install` or `yarn install`
 4. Follow platform-specific instructions for running the app on Android or iOS.
