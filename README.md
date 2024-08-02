@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+# AgriBUSS: Agribusiness made easy
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Summary
 
-Currently, two official plugins are available:
+AgriBUSS is a web and mobile application design to farmers working conditions in Cameroon. What do we mean by this? AgriBUSS help farmers to sell the product online to make more profit and also help farmers gain more farming knowledge.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+The main features of agri buss are as follow;
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### I. Secure Authentication
+- Utilizes robust encryption protocols to ensure secure user authentication.
+- Implements two-factor authentication (2FA) for an additional layer of security.
 
-- Configure the top-level `parserOptions` property like this:
+### II. Intuitive User Interface
+- Features a user-friendly interface for seamless navigation..
+- Provides clear instructions and prompts to guide users.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### III. Quality Products
+- Every product undergoes strict verification before beign posted.
+- Provide on the best for users.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### IV. Efficient Delivery
+- Rapid delivery of products to customers.
+- Farmer can monitor the driver to keep track of the ride in realtime.
+
+### V. Low Fees and Competitive Exchange Rates
+- Offers competitive fees and exchange rates compared to traditional banking methods.
+- Transparently displays applicable fees to users before confirming transactions.
