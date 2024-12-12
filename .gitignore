@@ -4,26 +4,6 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-<<<<<<< HEAD
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-=======
 lerna-debug.log*
 .pnpm-debug.log*
 
@@ -107,7 +87,7 @@ web_modules/
 .next
 out
 
-# Nuxt.js build / generate output
+# Nuxt.js build 
 .nuxt
 dist
 
@@ -148,4 +128,3 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
->>>>>>> 9acc140c5d046f100a7a56c974c5f38ff652f71b
