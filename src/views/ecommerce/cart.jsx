@@ -131,7 +131,7 @@ export default function Cart() {
                                     {sortedProducts().map(item => (
                                         <tr key={item._id} className='border-b border-gray-100 text-sm hover:bg-gray-50'>
                                             <td className='flex gap-4 p-4'>
-                                                <img src={`http://localhost:4000/${item?.productId?.images[0]}`} alt="Product" className='h-12 w-12 rounded-full' />
+                                                <img src={`process.env.NODE_APP_BASE_URL/${item?.productId?.images[0]}`} alt="Product" className='h-12 w-12 rounded-full' />
                                                 <div className='flex flex-col gap-1'>
                                                     <p className='font-bold'>{item?.productId?.name}</p>
                                                     <p>Melen</p>

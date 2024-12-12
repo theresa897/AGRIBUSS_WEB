@@ -6,7 +6,7 @@ export default function ProductCard({image, title, id,onAddToCart, status, price
 	return(
 							<div className="w-64 shadow shadow-gray-300 bg-white rounded-lg pb-2 h-[440px]">
 								<div className="w-full h-1/2">
-									<img src={`http://localhost:4000\\${image}`} alt="image" className="w-full rounded-t-lg h-full"/>
+									<img src={`process.env.NODE_APP_BASE_URL\\${image}`} alt="image" className="w-full rounded-t-lg h-full"/>
 								</div>
 								<div className="w-full h-1/2 p-3 align-bottom justify-between flex flex-col">
 									<div className='flex flex-col'>
@@ -15,7 +15,7 @@ export default function ProductCard({image, title, id,onAddToCart, status, price
 										<div className='flex gap-2 py-1'>
 											{
 												user?.images[0] ?
-												<img src={`http://localhost:4000\\${user?.images[0]}`} alt="image" className="w-4 rounded-full h-4"/>
+												<img src={`process.env.NODE_APP_BASE_URL\\${user?.images[0]}`} alt="image" className="w-4 rounded-full h-4"/>
 												 : <div className="p-2 rounded-full text-xs bg-gray-200 px-3 text-gray-700 font-semibold">
 												 	{user?.firstname.charAt(0).toUpperCase()}
 												 </div>

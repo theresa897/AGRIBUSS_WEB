@@ -9,7 +9,7 @@ import { getQuestions, getUserQuestions } from '../../redux/feature/questionsSli
 import LandingFooter from '../../partials/footer/LandingFooter';
 import { BsFile, BsFileEarmark, BsSend, BsSendFill } from 'react-icons/bs';
 
-const socket = io('http://localhost:4000'); // Adjust the URL as necessary
+const socket = io('process.env.NODE_APP_BASE_URL'); // Adjust the URL as necessary
 
 const CategoryDiscussions = () => {
   const { categoryName } = useParams();

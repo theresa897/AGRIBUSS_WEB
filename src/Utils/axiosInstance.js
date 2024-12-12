@@ -5,7 +5,7 @@ import store from '../redux/store';
 import { getAuthToken } from '../redux/feature/userSlice';
 
 const axiosInstance = axios.create({
-  baseURL: process.env.REACT_APP_BASE_URL,
+  baseURL: process.env.NODE_APP_BASE_URL+'/api',
   // baseURL:'http://127.0.0.1:4000/api',
   
 });

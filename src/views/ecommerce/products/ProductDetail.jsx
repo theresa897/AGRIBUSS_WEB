@@ -217,12 +217,12 @@ export default function ProductDetail(){
 								<div className="w-1/6 px-2 flex flex-col gap-2">
 									{ product &&
 										product.images?.map((item, index) => (
-										<img src={`http://localhost:4000\\${item}`} onClick={() => setSelectImage(item)} className={`w-16 bg-gray-100 self-center cursor-pointer rounded-xl shadow-lg h-16 ${selectImage === item ? 'ring-[1px] ring-primary' : ''}`}/>
+										<img src={`process.env.NODE_APP_BASE_URL\\${item}`} onClick={() => setSelectImage(item)} className={`w-16 bg-gray-100 self-center cursor-pointer rounded-xl shadow-lg h-16 ${selectImage === item ? 'ring-[1px] ring-primary' : ''}`}/>
 									))
 									}
 								</div>
 								<div className="w-5/6 bg-gray-100 p-2 px-8 rounded-xl ">
-									<img src={`http://localhost:4000\\${selectImage}`} className="w-full  h-full"/>
+									<img src={`process.env.NODE_APP_BASE_URL\\${selectImage}`} className="w-full  h-full"/>
 								</div>
 							</div>
 							<div>
@@ -260,7 +260,7 @@ export default function ProductDetail(){
 								<p className="font-bold text-2xl">{product&& product.name.toUpperCase()}</p>
 								<div className="flex gap-2">
 								{product&&	
-									// <img src={`http://localhost:4000\\${product.farmer.image[0]}`} className="w-8 self-center cursor-pointer rounded-full shadow-lg h-8"/>
+									// <img src={`process.env.NODE_APP_BASE_URL\\${product.farmer.image[0]}`} className="w-8 self-center cursor-pointer rounded-full shadow-lg h-8"/>
 									 <p className="p-2 rounded-full bg-gray-200 px-3">{product.farmer.firstname.charAt(0)}</p>
 								}
 									<div className="text-xs font-bold">

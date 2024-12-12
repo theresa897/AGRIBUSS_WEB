@@ -338,7 +338,7 @@ export default function ProductList(){
 									return(
 					                    // <div key={product._id} className="border rounded p-4">
 					                        
-					                    //     <img src={`http://localhost:4000\\${product.images[0]}`} alt={product.name} className="w-full h-64 object-cover mb-2" />
+					                    //     <img src={`process.env.NODE_APP_BASE_URL\\${product.images[0]}`} alt={product.name} className="w-full h-64 object-cover mb-2" />
 					                    //     <h3 className="text-lg font-semibold">{product.name}</h3>
 					                    // </div>
 										<ProductCard

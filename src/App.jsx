@@ -1,4 +1,6 @@
 import  React, { useEffect, useState } from 'react'
+import dotenv from 'dotenv-flow';
+dotenv.config({ path: 'local.env' });
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import SignUp from './views/Signup.jsx'

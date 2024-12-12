@@ -339,7 +339,7 @@ export default function Products() {
 											<td>#{product.id}</td>
 											<td>
 												<div className='flex gap-2'>
-													<img src={`http://localhost:4000\\${product.images[0]}`} alt={`${product.name} image`} className='w-8 h-8 rounded-full' />
+													<img src={`process.env.NODE_APP_BASE_URL\\${product.images[0]}`} alt={`${product.name} image`} className='w-8 h-8 rounded-full' />
 													<p className='text-md p-2'>{product.name}</p>
 												</div>
 											</td>
@@ -428,7 +428,7 @@ export default function Products() {
 										<Slider {...farmerSettings} className="w-full h-64">
 											{
 												selectedProduct.images?.map((item, index) => (
-													<img key={index} src={`http://localhost:4000\\${item}`} alt='text' className='w-full h-64 rounded-lg' />
+													<img key={index} src={`process.env.NODE_APP_BASE_URL\\${item}`} alt='text' className='w-full h-64 rounded-lg' />
 												))
 											}
 										</Slider>
